@@ -1,0 +1,14 @@
+.search_form {
+  margin-top: 60px;
+}
+
+.search_form input {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #1d1d1d;
+  border: 1px solid #eee;
+  border-radius: 50px;
+}
+
+.search_form input::placeholder {
+  color: #555;
+}

@@ -1,0 +1,14 @@
+.username_input {
+  border-bottom: 1px solid #eee;
+  padding: 15px 5px;
+}
+
+.user_form_hidden {
+  display: none;
+}
+
+.username {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
