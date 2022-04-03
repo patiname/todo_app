@@ -1,7 +1,10 @@
 @import url(reset.css);
 
-body {
+* {
   box-sizing: border-box;
+}
+
+body {
   font-family: "Noto Sans KR", sans-serif;
   color: #fff;
 }
@@ -14,8 +17,11 @@ input {
   all: unset;
   width: 100%;
   border: 1px solid #eee;
-  padding: 15px;
+  padding: 15px 20px;
   font-size: 18px;
+  margin-top: 70px;
+  box-sizing: border-box;
+  border-radius: 50px;
 }
 input::placeholder {
   font-size: 18px;
@@ -28,7 +34,7 @@ input::placeholder {
   height: 100vh;
   position: relative;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   flex-direction: column;
 }
@@ -46,17 +52,18 @@ input::placeholder {
 .container {
   width: 440px;
   position: relative;
+  margin: 170px auto;
 }
 
 .clock {
   font-size: 100px;
   font-weight: 700;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .clock p {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 500;
 }
 
@@ -68,4 +75,13 @@ input::placeholder {
   font-size: 40px;
   font-weight: 600;
   text-align: center;
+}
+
+.search_form input {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #1d1d1d;
+}
+
+.search_form input::placeholder {
+  color: #555;
 }
